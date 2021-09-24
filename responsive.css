@@ -1,0 +1,750 @@
+@media all and (max-width: 1300px) {
+    .container {
+        width: 100%;
+        padding: 0 50px;
+    }
+
+    .s-icon span {
+        min-height: 177px;
+    }
+
+    .artical article {
+        width: 50%;
+        height: 100%;
+        box-sizing: border-box;
+    }
+
+    .article-img img {
+        height: 202px;
+    }
+
+    .artical article {
+        height: 202px;
+        padding: 30px;
+    }
+}
+
+@media all and (max-width: 1250px) {
+    .banner-bottom {
+        padding: 60px 0;
+    }
+
+    .text-content p {
+        font-size: 1.3rem;
+        padding-top: 18px;
+        line-height: 1.3;
+    }
+
+    .service-section {
+        padding: 50px 0;
+        background-color: #fff;
+    }
+
+    .service-title h1 {
+        font-size: 2.6rem;
+    }
+
+    .service-title p {
+        font-size: 1.3rem;
+        padding: 24px 0 35px;
+    }
+
+    .s-icon span {
+        padding: 0 32px 140px 0;
+        min-height: 150px;
+    }
+
+    .s-content p {
+        line-height: 1.5;
+        padding: 16px 0 0 0;
+    }
+
+    .pricing-table {
+        padding: 20px 0 0;
+    }
+
+    .pricing-items {
+        width: 48%;
+        margin-right: 2%;
+    }
+
+    .pricing-items:last-child {
+        margin: 24px auto 0;
+        float: none;
+    }
+
+    .p-table-clear {
+        display: block;
+    }
+
+    .p-heading h3 {
+        font-size: 1.6rem;
+        font-weight: 400;
+        padding: 0;
+    }
+
+    .p-heading h1 {
+        padding: 8px;
+        font-size: 2.8rem;
+    }
+
+    .p-heading h1 span {
+        font-size: 1.2rem;
+    }
+
+    .p-heading h4 {
+        padding: 8px 0 0;
+    }
+
+    .p-content ul li {
+        padding: 8px 0;
+    }
+
+
+    .pricing-items:first-child .p-heading p {
+        padding: 16px 0 20px;
+    }
+
+    .p-button {
+        display: block;
+        padding: 32px 10px;
+    }
+
+    .user-title {
+        padding: 0 0 60px;
+    }
+
+    .t-item {
+        width: 48%;
+        margin-right: 2%;
+    }
+
+    .t-item:nth-child(2) {
+        margin-right: 0;
+    }
+
+    .t-item:last-child {
+        float: none;
+        margin: 24px auto 0;
+    }
+}
+
+@media all and (max-width: 1130px) {
+    header {
+        position: static;
+    }
+
+    .header-logo {
+        width: 30%;
+    }
+
+    .header-menu {
+        width: 42%;
+    }
+
+    .header-button {
+        width: 28%;
+    }
+
+    .banner {
+        margin-top: 0;
+    }
+
+    .banneer-content h1 {
+        font-size: 3.3rem;
+        padding: 15px 0 8px;
+    }
+
+    .service-box {
+        width: 48%;
+        margin-right: 2%;
+        margin-bottom: 2%;
+    }
+
+    .service-box:nth-child(3n+3) {
+        margin-right: 2%;
+    }
+
+    .service-box:nth-child(2n+2) {
+        margin-right: 0%;
+    }
+
+    .artical article {
+        padding: 20px;
+    }
+
+    .user-title {
+        padding: 0 0 45px;
+    }
+}
+
+
+@media all and (max-width: 1100px) {
+    .pricing-items:first-child .p-heading p {
+        padding: 16px 0 0;
+    }
+
+    .news-letter-section {
+        padding: 60px 0;
+    }
+
+    .artical-section {
+        padding: 60px 0;
+    }
+
+    .user-title {
+        padding: 0 0 30px;
+    }
+}
+
+@media all and (max-width: 992px) {
+    .banner-bottom {
+        padding: 45px 0;
+    }
+
+    .f-div {
+        display: flex;
+        justify-content: space-between;
+        flex-grow: 1;
+    }
+
+    .header-logo {
+        flex-basis: 50%;
+    }
+
+    .responsiv-wraper {
+        flex-basis: 50%;
+        position: relative;
+        text-align: right;
+    }
+
+    .responsiv-wraper .first {
+        display: inline-block;
+        pointer-events: none;
+    }
+
+    .responsiv-wraper .second {
+        color: red;
+        pointer-events: none;
+    }
+
+    .responsiv-wraper #my-sid-bar {
+        display: inline-block;
+        height: 36px;
+        width: 50px;
+        position: relative;
+        top: 0;
+        right: -49px;
+        opacity: 0;
+    }
+
+    .side-bar {
+        position: absolute;
+        height: 100vh;
+        width: 200px;
+        padding-right: 20px;
+        right: -50px;
+        top: 100%;
+        background-color: #fff;
+        transition: .4s;
+        display: none;
+        z-index: 9999;
+
+    }
+
+    #my-sid-bar:checked~.side-bar {
+        display: block;
+    }
+
+    #my-sid-bar:checked~.first {
+        display: none;
+    }
+
+    #my-sid-bar:checked~.second {
+        display: inline-block;
+    }
+
+    .header-menu {
+        width: 100%;
+        font: none;
+    }
+
+    .primary-menu>ul li {
+        display: block;
+    }
+
+    .header-button {
+        width: 100%;
+        font: none;
+        text-align: center;
+    }
+
+    .primary-menu>ul li .fd-menu {
+        top: 41%;
+        left: -147px;
+    }
+
+    .primary-menu>ul li .sd-menu {
+        top: 36%;
+        left: -181px;
+    }
+
+    .banner {
+        padding: 85px 0;
+    }
+
+    .banneer-content h1 {
+        padding: 0px 0 8px;
+    }
+
+    .banner-button {
+        padding: 0px 0 0;
+    }
+
+    .banner-btn {
+        padding: 15px 15px;
+        margin: 0px 5px;
+        font-size: 1.2rem;
+    }
+
+    .banneer-content p {
+        font-size: 1.1rem;
+    }
+
+    .banneer-content h1 {
+        font-size: 2.3rem;
+    }
+
+    .text-content h1 {
+        font-size: 1.8rem;
+        font-weight: 500;
+        line-height: 1;
+    }
+
+    .text-content p {
+        font-size: 1.2rem;
+        line-height: 1.3;
+    }
+
+    .pricing-title h1 {
+        font-size: 2.8rem;
+    }
+
+    .pricing-title p {
+        font-size: 1.3rem;
+        padding: 24px 0;
+    }
+
+    .team-section {
+        padding: 35px 0;
+    }
+
+    .team-title h1 {
+        font-size: 2.4rem;
+        font-weight: 500;
+        padding: 16px 0 24px;
+    }
+
+    .member {
+        width: 48%;
+        margin-right: 2%;
+        margin-bottom: 2%;
+    }
+
+    .member:nth-child(2n+2) {
+        margin-right: 0;
+    }
+
+    .news-letter-section {
+        padding: 40px 0;
+    }
+
+    .artical-section {
+        padding: 45px 0;
+    }
+
+    .artical-title {
+        padding: 0 0 30px;
+    }
+
+    .artical {
+        width: 100%;
+        margin-bottom: 24px;
+        display: flex;
+    }
+
+    .article-img {
+        flex-basis: 50%;
+        flex-grow: 1;
+        height: auto;
+    }
+
+    .article-img img {
+        width: 100%;
+    }
+
+    article {
+        flex-basis: 50%;
+        flex-grow: 1;
+        float: none;
+    }
+
+    .user-section {
+        padding: 35px 0;
+    }
+
+    .user-title h1 {
+        font-size: 2.4rem;
+    }
+
+    .user-title p {
+        padding: 0 0 8px;
+    }
+}
+
+@media all and (max-width: 860px) {
+    .pricing-items {
+        width: 100%;
+        margin-right: 0;
+        margin: 0 0 4%;
+    }
+
+    .news-letter-title p {
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+
+    .news-letter-title h1 {
+        font-size: 2rem;
+        font-weight: 500;
+        padding: 16px 0 0;
+    }
+
+    .letter-form {
+        padding: 16px;
+    }
+
+    .artical-section {
+        padding: 30px 0;
+    }
+
+    .title-heading {
+        width: 100%;
+        text-align: center;
+    }
+
+    .title-heading h1 {
+        font-size: 2.8rem;
+        font-weight: 500;
+        margin: 0 0 20px;
+    }
+
+    .title-content {
+        width: 100%;
+    }
+
+    .artical-title {
+        padding: 0 0 24px;
+    }
+
+    .t-item {
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .t-content {
+        padding: 24px;
+    }
+
+    .t-info {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-map {
+        width: 100%;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .default-input {
+        padding: 16px;
+        font-size: 1.1rem;
+    }
+
+    .contact-form h3 {
+        font-size: 1.3rem;
+        font-weight: 500;
+        padding: 30px 0 0px;
+    }
+
+    .contact-form p {
+        font-size: 1.2rem;
+        font-weight: 400;
+        line-height: 1.3;
+        padding: 16px 0;
+    }
+
+    .contact-map {
+        height: 450px;
+    }
+}
+
+@media all and (max-width: 775px) {
+    .banner {
+        padding: 50px 0;
+    }
+
+    .banner-btn {
+        font-size: 1rem;
+    }
+
+    .banner-bottom {
+        padding: 30px 0;
+    }
+
+    .video-content {
+        width: 100%;
+        float: none;
+    }
+
+    .text-content {
+        width: 100%;
+        float: none;
+        margin: 24px 0 0;
+    }
+
+    .text-content h1 {
+        font-size: 2.1rem;
+        font-weight: 500;
+        line-height: 1;
+    }
+
+    .text-content p {
+        font-size: 1.2rem;
+        line-height: 1.3;
+        margin: 16px 0 0;
+    }
+
+    .service-section {
+        padding: 25px 0;
+    }
+
+    .service-box {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 4%;
+        padding: 32px;
+    }
+
+    .service-box:nth-child(3n+3) {
+        margin-right: 0%;
+    }
+
+    .s-icon span {
+        padding: 0 32px 0 0;
+        min-height: 85px;
+    }
+
+    .service-title p {
+        padding: 20px 0;
+    }
+
+    .service-title h1 {
+        font-size: 2rem;
+    }
+
+    .team-section {
+        padding: 20px 0;
+    }
+
+    .team-title h1 {
+        font-size: 1.6rem;
+        padding: 8px 0 0px;
+    }
+
+    .letter-form input {
+        width: 100%;
+        margin: 0 0 16px;
+    }
+
+    .artical-title {
+        padding: 0 0 16px;
+    }
+
+    .title-heading h1 {
+        font-size: 2rem;
+        margin: 0 0 10px;
+    }
+
+    .title-content p {
+        font-size: 1.1rem;
+        line-height: 1.3;
+    }
+
+    .t-content p {
+        font-size: 1.1rem;
+        line-height: 1.3;
+        font-weight: 400;
+    }
+
+    .t-content p::before {
+        font-size: 4rem;
+        top: -30px;
+    }
+
+}
+
+@media all and (max-width: 650px) {
+    .logo img {
+        margin-right: 4px;
+    }
+
+    .logo span {
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .responsiv-wraper {
+        flex-basis: 24%;
+    }
+
+    .banneer-content h1 {
+        font-size: 1.6rem;
+    }
+
+    .banneer-content p {
+        font-size: .9rem;
+    }
+
+    .s-icon span {
+        min-height: 108px;
+    }
+
+    .s-content h3 {
+        font-size: 1.4rem;
+    }
+
+    .s-content p {
+        font-size: 1rem;
+        line-height: 1.3;
+    }
+
+    .pricing-title h1 {
+        font-size: 2.2rem;
+        font-weight: 500;
+    }
+
+    .pricing-title p {
+        font-size: 1rem;
+        padding: 16px 0 0;
+        font-weight: 600;
+    }
+
+    .team-title h1 {
+        font-size: 1.3rem;
+        padding: 0px 0 0px;
+    }
+
+    .user-title h1 {
+        font-size: 1.4rem;
+    }
+
+    .user-title p {
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    footer {
+        padding: 16px 0;
+    }
+
+    footer p {
+        font-size: 1rem;
+    }
+}
+
+@media all and (max-width: 560px) {
+    .member {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 4%;
+    }
+
+    .news-letter-section {
+        padding: 24px 0;
+        background-color: #f7f9ff;
+    }
+
+    .news-letter-title p {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .news-letter-title h1 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        padding: 8px 0 0;
+    }
+
+    .letter-form input {
+        width: 100%;
+        margin: 0 0 10px;
+        padding: 12px 25px;
+    }
+
+    .letter-btn {
+        width: 38%;
+        padding: 10px 15px;
+        font-size: 1.2rem;
+        margin-left: 0;
+    }
+
+    .artical article p {
+        font-size: 1rem;
+        line-height: 1.4;
+        font-weight: 500;
+    }
+
+    .artical article h3 {
+        font-weight: 500;
+    }
+}
+
+@media all and (max-width: 490px) {
+    .logo span {
+        display: none;
+    }
+
+    .header-logo {
+        flex: 1 1 0;
+    }
+
+    .responsiv-wraper {
+        flex: 1 1 0;
+    }
+
+    .s-icon span {
+        padding: 20px;
+        min-height: 130px;
+    }
+
+    .service-title h1 {
+        font-size: 1.5rem;
+    }
+
+    .service-title p {
+        font-size: 1rem;
+        padding: 16px 0;
+    }
+
+    .letter-btn {
+        width: 57%;
+    }
+
+    .artical article p {
+        line-height: 1;
+    }
+}
