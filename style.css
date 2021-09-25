@@ -116,6 +116,7 @@ header{
     opacity: 0;
     visibility: hidden;
     transition: .4s;
+    z-index: 9999;
 }
 .primary-menu > ul li:hover .fd-menu {
     opacity: 1;
